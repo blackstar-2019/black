@@ -134,12 +134,12 @@ client.on('message', message => {
   let em1 = client.guilds.get("569987960989155340").emojis.find(r => r.name === "partner");
   
 	if(message.content === "?support")
-    message.channel.send(`${em1} | **Server Support** : \nhttps://discord.gg/P96Cjzh `)
+    message.channel.send(`${em1} | **Server Support** : \nhttps://discord.gg/6wMaJw `)
 });
     
 //invite    
 client.on('message', message => {
-  let em1 = client.guilds.get("569987960989155340").emojis.find(r => r.name === "partner");
+  let em1 = client.guilds.get("409592750804172810").emojis.find(r => r.name === "partner");
    
 
 	if(message.content === "?invite")
@@ -157,4 +157,4 @@ client.on('message', message => {
 
 
   
-client.login("Token");
+client.login("NTkxNzAzODczNTcyNTY5MTAw.XTY1pQ.ju4r2XYe8ip1fG8nar5YwwGjcAY");
